@@ -1,0 +1,22 @@
+body {
+    font-size: 50px;
+}
+
+.hand {
+    font-size: 100px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.hand:hover {
+    transform: scale(1.1);
+}
+
+#account {
+    color: red;
+    font-weight: bold;
+}
+
+.win {
+    color: red;
+}

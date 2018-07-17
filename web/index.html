@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>分歧终端机</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="app.css">
+    
+    <script src="jquery.min.js"></script>
+    <script src="web3.min.js"></script>
+    <script src="sha3.min.js"></script>
+
+    <script src="app.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <span>account:&nbsp;</span><span id="account"></span>
+        </div>
+        <div>
+            <span>choice:&nbsp;</span><span id="choice"></span>
+        </div>
+        <div>
+            <span>salt:&nbsp;</span><span id="salt"></span>
+        </div>
+        <div>
+            <span>winner:&nbsp;</span><span id="winner"></span>
+        </div>
+    </div>
+    <div>
+        <span class="hand far fa-hand-rock" data-choice="r"></span>
+        <span class="hand far fa-hand-paper" data-choice="p"></span>
+        <span class="hand far fa-hand-scissors" data-choice="s"></span>
+    </div>
+    <div>
+        <button id="reveal">Reveal</button>
+    </div>
+    <div>
+        <button id="choose-winner">Check Winner</button>
+    </div>
+</body>
+</html>
