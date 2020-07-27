@@ -2,6 +2,8 @@
 
 This is a demo of rock paper scissors game in solidty.
 
+It's used in a smart contract course.
+
 A basic commit-reveal pattern is used in this DApp. Please read [smart contract best practice: remember that on chain data is public](https://consensys.github.io/smart-contract-best-practices/recommendations/#remember-that-on-chain-data-is-public)
 for more detail.
 
